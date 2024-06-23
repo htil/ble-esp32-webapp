@@ -6,7 +6,7 @@
 </head>
     <body>
         <div>
-          <h1> Hello World </h1>
+          <h1> ESP32 BLE App </h1>
         </div>
         <div>
           <button id="connect_button">Connect BLE Device</button>
@@ -14,6 +14,11 @@
         </div>
         <div>
           <p id="data"></p>
+          <input type="text" id="wifi_ssid" placeholder="WIFI SSID">
+          <input type="text" id="wifi_password" placeholder="WIFI Password">
+        </div>
+        <div>
+          <button id="wifi_connect" style="margin-top: 10px;">Connect WIFI</button>
         </div>
     </body>
      <script type="module" src="js/main.js"></script>
